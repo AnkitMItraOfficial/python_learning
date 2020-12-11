@@ -53,3 +53,17 @@ print('I am' in Word) # True
 list3 = [1,2,3,4,2,6]
 print(list3.count(2))# Shows 2 because 2 is two times in the list
 
+# Sorting 
+list3 = [8,0,1,4,7,2,3,5,9,6]
+list3.sort()# Orders the list
+print(list3)
+
+#Sorted
+list3 = [8,0,1,4,7,2,3,5,9,6]
+print(sorted(list3)) #Creates a new array, but does not modify the existing 
+
+                                  #Or
+
+list3 = [8,0,1,4,7,2,3,5,9,6]
+new_list = list3.copy()
+print(list3)
