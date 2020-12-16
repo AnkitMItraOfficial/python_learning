@@ -4,7 +4,7 @@ import time
 
 i = 0
 while i < 10:
-    pyautogui.write('# Everything fine friends?', interval= 0.1)
+    time.sleep(2)
+    pyautogui.typewrite('# Everything fine friends?')
     pyautogui.press('enter')
     i += 1
-
