@@ -38,3 +38,19 @@ print('Program ended and I am outside the if-else block, I will run always no ma
 #     print('Do you want to go behind the bars?')
 
 # print('I am outside of the if-else block, because I have no indentation and I will run always no matter what the above conditions are')
+
+# Indentation in python
+
+# Python relies on indentation (whitespace at the beginning of a line) to define scope in the code. 
+# Other programming languages often use curly-brackets for this purpose
+
+# a = 33
+# b = 200
+# if b > a:
+# print("b is greater than a") # you will get an error
+
+# Ternatory operator
+
+is_friend = True
+can_message = 'you can message because we are friends' if is_friend else 'not allowed to message'
+print(can_message)
