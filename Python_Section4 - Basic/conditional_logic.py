@@ -54,3 +54,33 @@ print('Program ended and I am outside the if-else block, I will run always no ma
 is_friend = True
 can_message = 'you can message because we are friends' if is_friend else 'not allowed to message'
 print(can_message)
+
+
+# Conditional operators
+
+# # Equals: a == b
+# Not Equals: a != b
+# Less than: a < b
+# Less than or equal to: a <= b
+# Greater than: a > b
+# Greater than or equal to: a >= b
+
+print( 1 > 2)
+print( 1 < 2)
+print( 1 >= 2)
+print( 1 <= 2)
+print( 1 == 2)
+print( 1 != 2)
+
+# and or not 
+
+is_good = True
+is_rich = True
+is_happy = False
+
+print(is_rich and is_good)
+
+print(is_good or is_happy)
+
+print(not(True))
+
